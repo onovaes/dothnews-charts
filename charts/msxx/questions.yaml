@@ -8,11 +8,11 @@ questions:
   description: "Necessário para acessar o microserviço fora do cluster"
   label: Ativa o Ingress 
   type: boolean
-  group: "Admin API"
+  group: "Configurações Gerais do Microserviço"
 
 - variable: autoscaling.enabled
   default: "false"
   description: "HPA"
   label: Ativa o AutoScaling
   type: boolean
-  group: "Admin API"
+  group: "Configurações Gerais do Microserviço"
