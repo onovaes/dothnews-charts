@@ -1,6 +1,6 @@
 apiVersion: v2
 name: msxx
-description: Um chart para deploy de todos microservices
+description: Um helm chart para deploy de todos microservices do dothnews. Esse chart também pode ser usado via catálogo do rancher 
 
 # A chart can be either an 'application' or a 'library' chart.
 #
