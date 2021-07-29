@@ -1,6 +1,7 @@
 apiVersion: v2
 name: msxx
 description: Um helm chart para deploy de todos microservices do dothnews. Esse chart também pode ser usado via catálogo do rancher 
+maintainer: Gabriel Novaes <gabriel@dothcom.net>
 
 # A chart can be either an 'application' or a 'library' chart.
 #
@@ -24,4 +25,4 @@ version: 0.1.0
 appVersion: "1.16.0"
 
 
-icon: https://s3.amazonaws.com//beta-img.b2bstack.net/uploads/production/product/product_image/576/dothnews.png
+icon: https://blog.dothnews.com.br/wp-content/themes/vito/gfx/dothnews-sistemas-para-webjorlismo.png
