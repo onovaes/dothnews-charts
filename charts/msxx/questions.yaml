@@ -16,3 +16,11 @@ questions:
   label: Ativa o AutoScaling
   type: boolean
   group: "Configurações Gerais do Microserviço"
+
+- variable: replicaCount
+  default: 1
+  description: "Número de réplicas do pod"
+  label: Réplicas
+  type: int
+  required: true
+  group: "Configurações Gerais do Microserviço"
