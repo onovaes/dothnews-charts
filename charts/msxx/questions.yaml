@@ -1,17 +1,18 @@
 categories:
-- Blogs
-- CMS
+- Microservices
+- Dothnews Core
 
 questions:
 - variable: ingress.enabled
   default: "false"
-  description: "Ativa o ingress"
-  label: Ativa o ingress label
+  description: "Necessário para acessar o microserviço fora do cluster"
+  label: Ativa o Ingress 
   type: boolean
   group: "Admin API"
 
 - variable: autoscaling.enabled
   default: "false"
-  description: "Enable HPA"
-  label: Proxy - HTTP
+  description: "HPA"
+  label: Ativa o AutoScaling
   type: boolean
+  group: "Admin API"
