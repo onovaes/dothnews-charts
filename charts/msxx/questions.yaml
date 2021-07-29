@@ -1,0 +1,17 @@
+categories:
+- Blogs
+- CMS
+
+questions:
+- variable: ingress.enabled
+  default: "false"
+  description: "Ativa o ingress"
+  label: Ativa o ingress label
+  type: boolean
+  group: "Admin API"
+
+- variable: autoscaling.enabled
+  default: "false"
+  description: "Enable HPA"
+  label: Proxy - HTTP
+  type: boolean
